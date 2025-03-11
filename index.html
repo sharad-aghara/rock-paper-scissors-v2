@@ -13,12 +13,43 @@
 
 <body>
 
-    <div class="container">
+    <div class="container text-center">
 
-        <button class="btnItem btnRock" type="button" value="1"></button>
-        <button class="btnItem btnPaper" type="button" value="2"></button>
-        <button class="btnItem btnScissors" type="button" value="3"></button>
-        
+        <div class="row">
+            <div class="col"></div>
+            <div class="col-2">
+                <h3 class="txtShadow">Score:</h3>
+            </div>
+            <div class="col-2">
+                <h4 class="txtColor">Player</h4>
+            </div>
+            <div class="col-2 dflex justify-content-start">
+                <!-- player score -->
+                <p class="txtNormal"><span id="txtPlayerScore"></span></p>
+            </div>
+            <div class="col-2">
+                <h3 class="txtColor">CPU</h3>
+            </div>
+            <div class="col-2">
+                <!-- computer score -->
+                <p class="txtNormal"><span id="txtCPUScore"></span></p>
+            </div>
+            <div class="col"></div>
+        </div>
+
+        <div class="row justify-content-center">
+            <!-- buttons -->
+            <div class="col">
+            </div>
+            <div class="col">
+                <button class="btnItem btnRock mx-2" type="button" value="1"></button>
+                <button class="btnItem btnPaper mx-2" type="button" value="2"></button>
+                <button class="btnItem btnScissors mx-2" type="button" value="3"></button>
+            </div>
+            <div class="col">
+            </div>
+        </div>
+
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

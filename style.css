@@ -8,25 +8,50 @@ body {
     height: 99vh;
 }
 
+.txtShadow {
+    color: #ffc107;
+    font-stretch: expanded;
+    font-weight: bolder;
+    text-shadow: 2px 2px 5px #e1b530;
+}
+
+.txtColor{
+    color: #ffc107;
+    font-weight: bold;
+}
+
+.txtNormal{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: larger;
+}
+
+/* buttons */
 .btnItem {
-    height: 9vh;
-    width: 4vw;
+    height: 100px;
+    width: 75px;
+    display: inline-block;
+    padding: 5px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-position: center center;
+    background-size: contain;
 }
 
 .btnRock {
     background-image: url("../icons/stone.png");
-    background-repeat: no-repeat;
-    background-color: transparent;
+    /* background-repeat: no-repeat; */
+    /* background-color: transparent; */
 }
 
 .btnPaper {
     background-image: url("../icons/paper.png");
-    background-repeat: no-repeat;
-    background-color: transparent;
+    /* background-repeat: no-repeat; */
+    /* background-color: transparent; */
 }
 
 .btnScissors {
     background-image: url("../icons/scissors.png");
-    background-repeat: no-repeat;
-    background-color: transparent;  
+    /* background-repeat: no-repeat; */
+    /* background-color: transparent;   */
 }
