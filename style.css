@@ -1,0 +1,32 @@
+body {
+    background-color: #101828;
+    scroll-behavior: auto;
+}
+
+.container {
+    border: 1px solid #fff;
+    height: 99vh;
+}
+
+.btnItem {
+    height: 9vh;
+    width: 4vw;
+}
+
+.btnRock {
+    background-image: url("../icons/stone.png");
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+.btnPaper {
+    background-image: url("../icons/paper.png");
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+.btnScissors {
+    background-image: url("../icons/scissors.png");
+    background-repeat: no-repeat;
+    background-color: transparent;  
+}
